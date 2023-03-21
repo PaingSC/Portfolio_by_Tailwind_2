@@ -1,0 +1,12 @@
+{
+  "name": "portfolio_by_tailwind_2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build-css": "tailwindcss build /asset/css/input.css -o /asset/css/style.css",
+    "watch-css":"npx tailwindcss -i ./asset/css/input.css -o ./asset/css/style.css --watch"
+  },
+  "author": "",
+  "license": "ISC"
+}

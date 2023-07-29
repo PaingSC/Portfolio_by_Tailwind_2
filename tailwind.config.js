@@ -8,7 +8,9 @@ module.exports = {
         'sub': '#CCCCCCC',
       },
       fontSize: {
-        'base': ['20px', '1.75']
+        'base': ['20px', '1.75'],
+        'sub-ttl': ['32px', '1.75'],
+        'h2-ttl': ['48px', '1.75']
       }
       
     },

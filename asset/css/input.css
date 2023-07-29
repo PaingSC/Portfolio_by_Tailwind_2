@@ -2,12 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-.container{
-  @apply max-w-[1260px] mx-auto px-[20px];
+@layer base {
+  body {
+    font-family: "roboto";
+  }
+  h2 {
+    
+  }
 }
-.tech-stack li {
-  @apply w-[calc(100%/6)] flex justify-center
+@layer components {
+  .container{
+    @apply max-w-[1260px] mx-auto px-[20px];
+  }
+  .tech-stack li {
+    @apply w-[calc(100%/6)] flex justify-center
+  }
+  .card {
+    @apply rounded-xl;
+  }
+
+  .card-ttl {
+
+  }
+.card-content {}
+
+.card-link {}
 }
+
 
 /* .tech-stack-grid li {
   grid-column: 1/ span 3;
